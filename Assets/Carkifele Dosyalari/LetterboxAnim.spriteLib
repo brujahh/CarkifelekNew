@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: letterboxBlink
+    m_Hash: 435808433
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: BeforeAfterBlink
+      m_Hash: 471205079
+      m_Sprite: {fileID: 1046490516, guid: 1866e3048ed4c764cacdb21d0fcb238e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1046490516, guid: 1866e3048ed4c764cacdb21d0fcb238e, type: 3}
+    - m_Name: Blinking
+      m_Hash: 150772137
+      m_Sprite: {fileID: 21300000, guid: 7b547a175fdb8d84bb79697faa999110, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 7b547a175fdb8d84bb79697faa999110, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638712040534345068
+  m_Version: 1

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7d64ce28c1e5e5a49a81313993137fa8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - parent: {instanceID: 0}
+  - earnedPointsOnScreen: {instanceID: 0}
+  - score: {instanceID: 0}
+  - scoreText: {instanceID: 0}
+  - spinBtn: {fileID: 5840352860159412094, guid: d143e8b2dcc12604bb8f491b3aa8622b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7735255514850376827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3165308292950467154}
+  - component: {fileID: 1674555532700232602}
+  m_Layer: 0
+  m_Name: HangmanManager 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3165308292950467154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735255514850376827}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21.66887, y: 357.73895, z: -13.071862}
+  m_LocalScale: {x: 0.9230769, y: 0.9230769, z: 0.9230769}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1674555532700232602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735255514850376827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd6b8794f7d1b724a935ca895d133cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spin: {fileID: 0}
+  wordContainer: {fileID: 0}
+  keyboardContainerLineOne: {fileID: 0}
+  keyboardContainerLineTwo: {fileID: 0}
+  keyboardContainerLineThree: {fileID: 0}
+  keyboardContainerLineSpin: {fileID: 0}
+  letterContainer: {fileID: 5714806945487332861, guid: 808cdebe7f0de14478b710c25f3567b0, type: 3}
+  hangmanStages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  letterButton: {fileID: 2673216464218935518, guid: 184884a663cefae4787b5bd2b432067f, type: 3}
+  spinButton: {fileID: 2673216464218935518, guid: 55160bae2bddab44aae68b1b811790e6, type: 3}
+  wheelSpinBtn: {fileID: 0}
+  possibleWord: {fileID: 4900000, guid: 2ecfac158a5f6574083253580cb26ed0, type: 3}
+  buttonClicked: 0
+  keyCounter: 0
+  seasonEnded: 1
+  letterInWord: 0
+  blinkLetterImg: {fileID: 21300000, guid: 1866e3048ed4c764cacdb21d0fcb238e, type: 3}
+  blinkLetterImgBlinked: {fileID: 21300000, guid: 7b547a175fdb8d84bb79697faa999110, type: 3}
