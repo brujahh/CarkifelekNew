@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InventoryManager : MonoBehaviour
+public class GpInventoryManager : MonoBehaviour
 {
     // Player's points
     public int playerPoints = 1000;
@@ -17,7 +17,7 @@ public class InventoryManager : MonoBehaviour
     public Button buyDishwasherButton;
 
     // Reference to the ItemManager to place items on shelves
-    public ItemManager itemManager;
+    public GpItemManager itemManager;
 
     void Start()
     {

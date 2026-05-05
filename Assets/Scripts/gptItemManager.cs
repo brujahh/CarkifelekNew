@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ItemManager : MonoBehaviour
+public class GpItemManager : MonoBehaviour
 {
     // Reference to the UI buttons and shelf locations
     public Button buyTVButton;
